@@ -1,8 +1,14 @@
 {
-  "Post": {
+  "Product": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
+    },
+    "hero":{
+      "array": [
+        ["Thor","vip pro"],
+        ["Loki","xam lz"]
+      ]
     }
   },
   "Comment": {
